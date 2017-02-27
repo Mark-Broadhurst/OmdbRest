@@ -18,6 +18,9 @@ configuration: Release
 install:
   - dotnet restore
 
+after_build:
+  - dotnet pack
+
 cache:
   - packages -> paket.lock
 
