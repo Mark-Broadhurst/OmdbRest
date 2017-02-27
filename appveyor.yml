@@ -19,6 +19,7 @@ install:
   - dotnet restore
 
 after_build:
+  - cd src
   - dotnet pack
 
 cache:
