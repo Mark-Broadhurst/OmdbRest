@@ -13,13 +13,10 @@ assembly_info:
   assembly_file_version: "{version}"
   assembly_informational_version: "{version}"
 
-configuration: 
-  - Release-net452
-  - Release-netstandard10
+configuration: Release
 
 install:
-  - .paket\paket.bootstrapper.exe
-  - .paket\paket.exe restore
+  - dotnet restore
 
 cache:
   - packages -> paket.lock
