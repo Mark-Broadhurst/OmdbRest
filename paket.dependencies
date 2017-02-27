@@ -1,3 +1,4 @@
 source https://www.nuget.org/api/v2
-framework:net461
+framework: >= netstandard10, >= net452
+
 nuget Newtonsoft.Json
