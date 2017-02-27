@@ -15,6 +15,13 @@ assembly_info:
 
 configuration: Release
 
+install:
+  - .paket\paket.bootstrapper.exe
+  - .paket\paket.exe restore
+
+cache:
+  - packages -> paket.lock
+
 build:
   parallel: true
   project: OmdbRest.sln
