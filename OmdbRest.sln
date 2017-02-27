@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "OmdbRest", "src\OmdbRest.fsproj", "{B2F6B4BF-7F07-4B5A-B60A-0BF7DD496057}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "OmdbRest", "src\OmdbRest.fsproj", "{219C59A7-15CC-4A4E-B31C-11B086D57DDA}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5E04207C-2A9B-4AA8-B29C-A93AA5B7DCC6}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{960102B2-9221-4EFD-A7EB-9274C1652C59}"
 	ProjectSection(SolutionItems) = preProject
 		paket.dependencies = paket.dependencies
 	EndProjectSection
@@ -16,10 +16,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B2F6B4BF-7F07-4B5A-B60A-0BF7DD496057}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B2F6B4BF-7F07-4B5A-B60A-0BF7DD496057}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B2F6B4BF-7F07-4B5A-B60A-0BF7DD496057}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B2F6B4BF-7F07-4B5A-B60A-0BF7DD496057}.Release|Any CPU.Build.0 = Release|Any CPU
+		{219C59A7-15CC-4A4E-B31C-11B086D57DDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{219C59A7-15CC-4A4E-B31C-11B086D57DDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{219C59A7-15CC-4A4E-B31C-11B086D57DDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{219C59A7-15CC-4A4E-B31C-11B086D57DDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
