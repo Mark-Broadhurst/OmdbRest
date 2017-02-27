@@ -1,5 +1,9 @@
 {
-  "version": "1.0.0-*",
+  "name": "OmdbRest",
+  "title": "OmdbRest",
+  "authors": ["Mark Broadhurst"],
+  "description":"A wrapper around Omdb.com",
+  "version": "1.0.13-*",
   "buildOptions": {
     "debugType": "portable",
     "compilerName": "fsc",
@@ -16,6 +20,17 @@
   "tools": {
     "dotnet-compile-fsc":"1.0.0-preview2-*"
   },
+  "packOptions": {
+    "summary": "A wrapper around Omdb.com",
+    "owners": ["Mark Broadhurst"],
+    "projectUrl": "https://github.com/Mark-Broadhurst/OmdbRest",
+    "licenseUrl": "https://github.com/Mark-Broadhurst/OmdbRest/blob/master/LICENSE",
+    "requireLicenseAcceptance": false,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Mark-Broadhurst/OmdbRest.git"
+    }
+  },  
   "frameworks": {
     "netstandard1.6": {
       "dependencies": {
