@@ -29,8 +29,10 @@ build:
   include_nuget_references: true
   
 artifacts:
-  - path: src\bin\$(configuration)\OmdbRest.dll
-  - path: src\bin\$(configuration)\OmdbRest.pdb
+  - path: src\bin\$(configuration)
+    name: bin
+  - path: '**\*.nupkg'
+    name: nuget
 
 deploy:
   - provider: GitHub
