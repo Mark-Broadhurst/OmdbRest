@@ -12,7 +12,7 @@ let private getResult<'T> search =
         let url = sprintf "http://www.omdbapi.com/?%s" search
         let! r = client.GetAsync url |> Async.AwaitTask
         let! c = r.Content.ReadAsStringAsync() |> Async.AwaitTask
-        let o = JObject(c)
+        let o = JObject.Parse(c)
         return o.ToObject<'T>()
     } |> Async.RunSynchronously
 
