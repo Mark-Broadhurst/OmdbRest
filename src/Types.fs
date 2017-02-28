@@ -6,7 +6,7 @@ type ResultType =
     | Episode
 
 type SearchResults = {
-        Search: Search list
+        Search: Search seq
     }
 and Search = {
       Title: string
