@@ -22,6 +22,8 @@ after_build:
   - cd src
   - dotnet pack
 
+test: off
+
 cache:
   - packages -> paket.lock
 
