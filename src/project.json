@@ -3,12 +3,13 @@
   "title": "OmdbRest",
   "authors": ["Mark Broadhurst"],
   "description":"A wrapper around Omdb.com",
-  "version": "1.0.14-*",
+  "version": "1.0.15-*",
   "buildOptions": {
     "debugType": "portable",
     "compilerName": "fsc",
     "compile": {
       "includeFiles": [
+        "Types.fs",
         "Client.fs"
       ]
     }
