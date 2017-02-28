@@ -3,7 +3,7 @@
   "title": "OmdbRest",
   "authors": ["Mark Broadhurst"],
   "description":"A wrapper around Omdb.com",
-  "version": "1.0.13-*",
+  "version": "1.0.14-*",
   "buildOptions": {
     "debugType": "portable",
     "compilerName": "fsc",
