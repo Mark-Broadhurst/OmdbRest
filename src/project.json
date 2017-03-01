@@ -3,7 +3,7 @@
   "title": "OmdbRest",
   "authors": ["Mark Broadhurst"],
   "description":"A wrapper around Omdb.com",
-  "version": "1.0.22-*",
+  "version": "1.0.23-*",
   "buildOptions": {
     "debugType": "portable",
     "compilerName": "fsc",
@@ -31,19 +31,50 @@
       "type": "git",
       "url": "https://github.com/Mark-Broadhurst/OmdbRest.git"
     }
-  },  
+  },
   "frameworks": {
     "netstandard1.6": {
       "dependencies": {
-        "NETStandard.Library":"1.6.0",
+        "NETStandard.Library": "1.6.0",
         "Microsoft.FSharp.Core.netcore": "1.0.0-alpha-160629"
       }
     },
-    "net45":{
+    "net45": {
       "dependencies": {
-        "System.Runtime":"4.0.0",
-        "System.Net.Http":"4.0.0"
+        "System.Runtime": "4.0.0",
+        "System.Net.Http": "4.0.0"
+      }
+    },
+    "net451": {
+      "dependencies": {
+        "System.Runtime": "4.0.10",
+        "System.Net.Http": "4.0.0"
+      }
+    },
+    "net452": {
+      "dependencies": {
+        "System.Runtime": "4.0.10",
+        "System.Net.Http": "4.0.0"
+      }
+    },
+    "net46": {
+      "dependencies": {
+        "System.Runtime": "4.0.20",
+        "System.Net.Http": "4.0.0"
+      }
+    },
+    "net461": {
+      "dependencies": {
+        "System.Runtime": "4.0.20",
+        "System.Net.Http": "4.0.0"
+      }
+    },
+    "net462": {
+      "dependencies": {
+        "System.Runtime": "4.0.20",
+        "System.Net.Http": "4.0.0"
       }
     }
+
   }
 }
