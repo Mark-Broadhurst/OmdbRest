@@ -6,11 +6,14 @@ namespace Tests
 {
     public class Tests
     {
-        [Fact]
-        public void GetById()
+        [Theory]
+        [InlineData("tt1490017", "The LEGO Movie")]
+        [InlineData("tt0034583", "Casablanca")]
+        [InlineData("tt3896198", "Guardians of the Galaxy Vol. 2")]
+        public void GetById(string id, string title)
         {
-            var x = Client.GetById("tt1490017");
-            Assert.Equal("The LEGO Movie", x.Title);
+            var x = Client.GetById(id);
+            Assert.Equal(title, x.Title);
         }
 
         [Fact]

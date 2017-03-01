@@ -17,7 +17,7 @@ and Search = {
     }
 type Result = {
         Title: string
-        Year: int
+        Year: string
         Rated: string
         Released: string
         Runtime: string
@@ -30,7 +30,7 @@ type Result = {
         Country: string
         Awards: string
         Poster: string
-        Metascore: int
+        Metascore: string
         ImdbRating: double
         ImdbVotes: string
         ImdbID: string
