@@ -8,10 +8,15 @@
   "dependencies": {
     "System.Runtime.Serialization.Primitives": "4.3.0",
     "xunit": "2.1.0",
-    "dotnet-test-xunit": "1.0.0-rc2-build10015"
+    "dotnet-test-xunit": "1.0.0-rc2-build10015",
+    "OmdbRest": "1.0.23"
   },
   "testRunner": "xunit",
   "frameworks": {
-    "net451": {}
+    "net451": {},
+    "net452": {},
+    "net46": {},
+    "net461": {},
+    "net462": {}
   }
 }

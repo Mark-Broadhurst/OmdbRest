@@ -22,11 +22,6 @@ after_build:
   - cd src
   - dotnet pack
 
-test: off
-
-cache:
-  - packages -> paket.lock
-
 build:
   parallel: true
   project: OmdbRest.sln
