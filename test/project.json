@@ -9,7 +9,7 @@
     "System.Runtime.Serialization.Primitives": "4.3.0",
     "xunit": "2.1.0",
     "dotnet-test-xunit": "1.0.0-rc2-build10015",
-    "OmdbRest": "1.0.23"
+    "OmdbRest": "1.0.24"
   },
   "testRunner": "xunit",
   "frameworks": {

@@ -10,7 +10,7 @@ type SearchResults = {
     }
 and Search = {
       Title: string
-      Year: int
+      Year: string
       imdbID: string
       Type: string
       Poster: string
