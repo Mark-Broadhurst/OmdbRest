@@ -3,7 +3,6 @@
 open OmdbRest
 open System.Net.Http
 open Newtonsoft.Json
-open Newtonsoft.Json.Linq
 
 let private client = new HttpClient()
 
