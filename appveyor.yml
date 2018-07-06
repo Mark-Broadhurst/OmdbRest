@@ -12,8 +12,6 @@ skip_tags: true
 
 configuration: Release
 
-test: off
-
 install:
   - dotnet restore
 
